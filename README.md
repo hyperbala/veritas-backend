@@ -33,7 +33,7 @@ Saving the trained pipeline using joblib
 
 🔍 Sample Prediction
 manual_testing("Breaking News: Scientists confirm the Earth is actually flat and NASA has been hiding the truth for decades", model)
-# Output: Fake News
+Output: Fake News
 🌐 API (FastAPI)
 You can serve predictions via a RESTful API:
 
@@ -74,8 +74,8 @@ Uvicorn (for running the API)
 
 ⚙️ Run the Project
 1. Install dependencies:
-pip install -r requirements.txt
+   pip install -r requirements.txt
 
 3. Run the API:
-uvicorn main:app --reload
+   uvicorn main:app --reload
 
