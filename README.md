@@ -73,9 +73,19 @@ Joblib
 Uvicorn (for running the API)
 
 ⚙️ Run the Project
-1. Install dependencies:
-   pip install -r requirements.txt
 
-3. Run the API:
-   uvicorn main:app --reload
+### Install Dependencies
+
+```bash
+npm install
+```
+
+
+### Run the app locally with:
+
+```bash
+uvicorn main:app --reload
+```
+
+  
 
