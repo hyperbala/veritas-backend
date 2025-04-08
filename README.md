@@ -75,9 +75,7 @@ Uvicorn (for running the API)
 ⚙️ Run the Project
 1. Install dependencies:
 pip install -r requirements.txt
+
 3. Run the API:
-bash
-Copy
-Edit
 uvicorn main:app --reload
 
